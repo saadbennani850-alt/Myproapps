@@ -1,0 +1,42 @@
+Privacy Policy for QR Studio
+
+Effective Date: August 12, 2026 Last Updated: August 12, 2026
+
+Thank you for using QR Studio ("the App", "we", "our", or "us"). Your privacy is critically important to us. This Privacy Policy explains how our application operates, what permissions it requires, and how we respect and protect your information.
+
+OVERVIEW & PRIVACY COMMITMENT
+QR Studio is a privacy-first application.
+
+We do not collect, store, sell, or transmit any personal information, location data, or device identifiers.
+All scanning and QR code generation happens 100% locally on your device.
+You do not need to create an account, register, or provide any personal details to use QR Studio.
+DEVICE PERMISSIONS REQUIRED
+To provide core features, QR Studio requests the following permissions on your Android device:
+
+A. Camera Permission (android.permission.CAMERA)
+
+Purpose: Used exclusively to enable the live camera preview for scanning QR codes and barcodes.
+Data Handling: Camera frames are analyzed locally on your device in real-time using Google ML Kit Barcode Scanning API. Video frames or images from your camera are never recorded, stored, uploaded, or transmitted to any server.
+B. Storage Permission (android.permission.WRITE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE)
+
+Purpose: Required only when you explicitly tap "Save to Gallery" to save a generated QR code image to your device's Pictures folder (Pictures/QRStudio).
+Data Handling: We only access storage to save or read the specific QR image file you generate. We do not inspect, upload, or collect your personal photos or files.
+DATA COLLECTION AND USAGE
+Personal Data: We collect ZERO personal data (e.g., name, email address, phone number, IP address).
+Scanned Content: Any text, URL, contact info, or WiFi details decoded from scanned QR codes remain strictly on your device. Scanned data is never uploaded to external servers or logged remotely.
+Generated Content: Any QR code you create (URLs, text, WiFi credentials, vCards) is processed entirely offline on your device using open-source ZXing software.
+THIRD-PARTY SERVICES & LIBRARIES
+QR Studio utilizes trusted open-source and developer SDKs that run locally on your device:
+
+Google ML Kit Barcode Scanning API: Used for on-device barcode recognition. ML Kit processes image frames locally without sending data to Google servers.
+CameraX Library: Android Jetpack library used to manage the device camera hardware interface cleanly.
+QR Studio does NOT include third-party advertising SDKs, tracking frameworks, or analytics services.
+
+CHILDREN'S PRIVACY
+Our application is safe for users of all ages, including children under the age of 13. Because QR Studio collects no personal information whatsoever, it complies fully with the Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy.
+
+SECURITY
+Because all processing occurs locally on your hardware and no personal data is collected or transmitted across the network, your risk of data exposure or security breaches through QR Studio is virtually zero.
+
+CHANGES TO THIS PRIVACY POLICY
+We may update our Privacy Policy from time to time to reflect app updates or regulatory changes. Any updates will be posted on this page with a revised "Effective Date".
