@@ -1,0 +1,29 @@
+| **`READ_EXTERNAL_STORAGE`** | Android 12 and below | Allows the App to let you browse and select PDF files stored on your device. |
+| **`READ_MEDIA_IMAGES`** | Android 13 (API 33)+ | Allows you to select photos and images for the "Images to PDF" feature. |
+| **Storage Access Framework (SAF)** | All Android Versions | Provides secure, user-controlled file picking and saving directly to folders you choose. |
+> **Note:** You can grant or revoke these permissions at any time via your device's **Settings > Apps > PDF Pro Editor > Permissions**.
+---
+## 4. File Sharing & Exporting
+When you use the "Share" or "Print" functions inside the App:
+* Files are shared via standard Android `FileProvider` APIs directly to the target application you choose (e.g., Email, WhatsApp, Google Drive, Print Spooler).
+* We have no access to or control over files once they are transmitted to external third-party applications selected by you.
+---
+## 5. Third-Party Services & Links
+The App operates primarily as a standalone offline utility. If any third-party libraries (such as Google Play Services or Android Jetpack libraries) are utilized:
+* They adhere strictly to Google Play Developer Policies.
+* They do not receive access to the contents of your PDF documents or images.
+---
+## 6. Data Security & Storage
+* **Local Storage:** All edited documents and temporary cache files remain on your device's private storage sandbox.
+* **Data Deletion:** You maintain complete control over your files. Deleting an exported PDF from your device storage or clearing the App's data via Android Settings permanently removes any local cached sessions.
+---
+## 7. Children’s Privacy (COPPA Compliance)
+**PDF Pro Editor** does not knowingly collect, solicit, or maintain personal information from children under the age of 13 (or under 16 in the European Union). Since the App processes documents offline without requiring user accounts or data submission, it complies with the Children’s Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).
+---
+## 8. GDPR & CCPA Rights (For EU and California Residents)
+Because we do not collect, transmit, or store personal identifiers or user profiles on remote servers:
+* There is no central database containing your personal information.
+* All data processing rights (access, rectification, erasure) are exercised directly through your control over your device's local file storage.
+---
+## 9. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time to reflect improvements, feature additions, or legal requirements. Any updates will be reflected with a revised "Last Updated" date at the top of this document. Continued use of the App following any changes indicates acceptance of the revised policy.
